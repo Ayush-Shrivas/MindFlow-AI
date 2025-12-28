@@ -159,3 +159,29 @@ mindflow-ai/
 └── LICENSE                           # Project license
 
 ```
+---
+
+## 👤 Author & 🤝 Collaboration
+
+### Author
+
+**Ayush Shrivas**  
+Project Lead & Full-Stack Developer  
+GitHub: https://github.com/Ayush-Shrivas  
+
+Responsible for overall system design, frontend–backend integration, and AI architecture.
+
+---
+
+### Collaboration
+
+This project was collaboratively developed with contributions across frontend, backend, and AI reasoning.
+
+- **Laxmi Tiwari** – Frontend Development & UI Contributions  
+  GitHub: https://github.com/laxmi911
+
+- **Apurv Singh Rajpoot** – Backend Development & API Design  
+  GitHub: https://github.com/Apurv1107
+
+- **Dev Kumar Patel** – Research, AI Logic & System Support  
+  GitHub: https://github.com/Dev-Patel0611
