@@ -173,15 +173,12 @@ Responsible for overall system design, frontend–backend integration, and AI ar
 
 ---
 
-### Collaboration
+
+## 🤝 Collaboration
 
 This project was collaboratively developed with contributions across frontend, backend, and AI reasoning.
 
-- **Laxmi Tiwari** – Frontend Development & UI Contributions  
-  GitHub: https://github.com/laxmi911
+- **[Laxmi Tiwari](https://github.com/laxmi911)** – Frontend Development & UI Contributions  
+- **[Apurv Singh Rajpoot](https://github.com/Apurv1107)** – Backend Development & API Design  
+- **[Dev Kumar Patel](https://github.com/Dev-Patel0611)** – Research, AI Logic & System Support  
 
-- **Apurv Singh Rajpoot** – Backend Development & API Design  
-  GitHub: https://github.com/Apurv1107
-
-- **Dev Kumar Patel** – Research, AI Logic & System Support  
-  GitHub: https://github.com/Dev-Patel0611
