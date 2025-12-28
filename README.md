@@ -92,6 +92,7 @@ http://localhost:5000
 ### Frontend Setup
 ```bash
 cd frontend
+
 npm install
 npm run dev
 ```
