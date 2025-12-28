@@ -165,9 +165,8 @@ mindflow-ai/
 
 ### Author
 
-**Ayush Shrivas**  
+**[Ayush Shrivas](https://github.com/Ayush-Shrivas)**  
 Project Lead & Full-Stack Developer  
-GitHub: https://github.com/Ayush-Shrivas  
 
 Responsible for overall system design, frontend–backend integration, and AI architecture.
 
