@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const GEMINI_URL =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent";
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
 
 export async function extractIntent(userInput) {
   try {
@@ -10,19 +10,34 @@ export async function extractIntent(userInput) {
     }
 
     const prompt = `
-You are an intent extraction system.
+You are an intent understanding system.
+
+Analyze the following user input deeply.
 
 User input:
 "${userInput}"
 
-Return ONLY valid JSON in this exact format:
+Your task:
+- Infer the user's primary goal
+- Infer the emotional state (even if implicit)
+- Extract constraints (if any)
+- Identify unknowns or open questions
+
+Rules:
+- Do NOT return "Unknown" unless absolutely impossible
+- Make reasonable inferences
+- Be concise but meaningful
+
+Respond ONLY in valid JSON with this structure:
+
 {
-  "goal": "",
-  "emotion": "",
+  "goal": "...",
+  "emotion": "...",
   "constraints": [],
   "unknowns": []
 }
 `;
+
 
     const response = await axios.post(
       `${GEMINI_URL}?key=${process.env.GEMINI_API_KEY}`,
