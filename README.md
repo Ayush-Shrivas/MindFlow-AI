@@ -181,3 +181,41 @@ This project was collaboratively developed with contributions across frontend, b
 - **[Apurv Singh Rajpoot](https://github.com/Apurv1107)** – Backend Development & API Design  
 - **[Dev Kumar Patel](https://github.com/Dev-Patel0611)** – Research, AI Logic & System Support  
 
+---
+
+## 👥 Contributors
+
+Thanks to the following people for contributing to **MindFlow AI**:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Ayush-Shrivas">
+        <img src="https://avatars.githubusercontent.com/Ayush-Shrivas" width="80px;" alt="Ayush Shrivas"/><br />
+        <sub><b>Ayush Shrivas</b></sub>
+      </a><br />
+      <sub>Project Lead & Full-Stack</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/laxmi911">
+        <img src="https://avatars.githubusercontent.com/laxmi911" width="80px;" alt="Laxmi Tiwari"/><br />
+        <sub><b>Laxmi Tiwari</b></sub>
+      </a><br />
+      <sub>Frontend</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Apurv1107">
+        <img src="https://avatars.githubusercontent.com/Apurv1107" width="80px;" alt="Apurv Singh Rajpoot"/><br />
+        <sub><b>Apurv Singh Rajpoot</b></sub>
+      </a><br />
+      <sub>Backend</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Dev-Patel0611">
+        <img src="https://avatars.githubusercontent.com/Dev-Patel0611" width="80px;" alt="Dev Kumar Patel"/><br />
+        <sub><b>Dev Kumar Patel</b></sub>
+      </a><br />
+      <sub>AI & Research</sub>
+    </td>
+  </tr>
+</table>
