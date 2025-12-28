@@ -5,47 +5,52 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6.svg?logo=typescript)](https://www.typescriptlang.org/)
 [![Google Gemini](https://img.shields.io/badge/Google-Gemini_API-4285F4.svg?logo=google)](https://ai.google.dev/)
 
-**MindFlare AI** is an intent-understanding system that transforms unstructured human thoughts into structured intelligence.  
+**MindFlare AI** is an intent-understanding system that transforms unstructured human thoughts into structured intelligence.
 It analyzes goals, emotions, constraints, and uncertainties from natural language input and converts them into **visual intent graphs**, enabling context-aware reasoning, smarter decisions, and future-ready AI automation.
 
 ---
 
-## 🚀 Why MindFlow AI?
+## 🚀 Why MindFlare AI?
 
-Most AI systems respond to **commands**.  
-MindFlow AI understands **intent before execution**.
+Most AI systems respond to **commands**.
+**MindFlare AI** understands **intent before execution**.
 
 Humans often express ideas vaguely:
 
 > *“I want to do something meaningful in tech but avoid burnout.”*
 
-MindFlow AI structures this ambiguity into a clear, actionable representation instead of generic responses.
+**MindFlare AI** structures this ambiguity into a clear, actionable representation instead of generic responses.
 
 ---
 
 ## ✨ Key Features
 
-- **Intent Extraction**
-  - Identifies goals, emotions, constraints, and unknowns from free-text input
-- **Intent Graph Generation**
-  - Converts abstract thoughts into structured nodes and relationships
-- **AI-Powered Reasoning**
-  - Uses Google Gemini for deep semantic understanding
-- **Extensible Architecture**
-  - Designed as a cognitive layer for future AI agents and tools
-- **Human-Centered Intelligence**
-  - Focuses on *why* before *what*
+* **Intent Extraction**
+
+  * Identifies goals, emotions, constraints, and unknowns from free-text input
+* **Intent Graph Generation**
+
+  * Converts abstract thoughts into structured nodes and relationships
+* **AI-Powered Reasoning**
+
+  * Uses Google Gemini for deep semantic understanding
+* **Extensible Architecture**
+
+  * Designed as a cognitive layer for future AI agents and tools
+* **Human-Centered Intelligence**
+
+  * Focuses on *why* before *what*
 
 ---
 
 ## 🛠️ Tech Stack & Architecture
 
-| Category        | Technology |
-|----------------|-----------|
-| **Frontend**   | React, Vite, TypeScript |
-| **Backend**    | Node.js, Express.js |
-| **AI Layer**   | Google Gemini API |
-| **Tools**      | Git, npm |
+| Category     | Technology              |
+| ------------ | ----------------------- |
+| **Frontend** | React, Vite, TypeScript |
+| **Backend**  | Node.js, Express.js     |
+| **AI Layer** | Google Gemini API       |
+| **Tools**    | Git, npm                |
 
 ---
 
@@ -53,10 +58,11 @@ MindFlow AI structures this ambiguity into a clear, actionable representation in
 
 1. User enters a natural language thought
 2. AI extracts:
-   - Core goal
-   - Emotional context
-   - Constraints
-   - Unknowns
+
+   * Core goal
+   * Emotional context
+   * Constraints
+   * Unknowns
 3. Extracted data is converted into an **Intent Graph**
 4. Frontend visualizes the graph
 5. Graph enables better reasoning, planning, and automation
@@ -65,13 +71,13 @@ MindFlow AI structures this ambiguity into a clear, actionable representation in
 
 ## 🚀 Getting Started
 
-Follow these instructions to run MindFlow AI locally.
+Follow these instructions to run **MindFlare AI** locally.
 
 ### Prerequisites
 
-- Node.js (v18+ recommended)
-- npm
-- Git
+* Node.js (v18+ recommended)
+* npm
+* Git
 
 ---
 
@@ -85,11 +91,13 @@ npm start
 ```
 
 ### Backend runs on:
-http://localhost:5000
+
+[http://localhost:5000](http://localhost:5000)
 
 ---
 
 ### Frontend Setup
+
 ```bash
 cd frontend
 
@@ -98,22 +106,25 @@ npm run dev
 ```
 
 ### Frontend runs on:
-http://localhost:5173
+
+[http://localhost:5173](http://localhost:5173)
 
 ---
 
 ### 🔑 Environment Variables
-Create a .env file in the backend folder:
+
+Create a `.env` file in the backend folder:
 
 ```env
 GEMINI_API_KEY=your_api_key_here
 ```
+
 ---
 
 ### 📂 Project Structure
 
 ```
-mindflow-ai/
+mindflare-ai/
 ├── backend/                          # Node.js + Express backend (AI & APIs)
 │   ├── src/
 │   │   ├── index.js                  # Server entry point
@@ -137,55 +148,54 @@ mindflow-ai/
 │   ├── src/
 │   │   ├── main.tsx                  # Frontend entry point
 │   │   ├── App.tsx                   # Root React component
-│   │   ├── pages/                    # Application pages
+│   │   ├── pages/
 │   │   │   └── Home.tsx              # Main UI page
-│   │   ├── components/               # Reusable UI components
-│   │   │   ├── IntentInput.tsx       # Text input for user thoughts
-│   │   │   ├── IntentGraph.tsx       # Intent graph visualization component
-│   │   │   └── Loader.tsx            # Loading and state feedback
-│   │   ├── services/                 # API communication layer
-│   │   │   └── api.ts                # Backend API calls
-│   │   ├── styles/                   # Global and component styles
+│   │   ├── components/
+│   │   │   ├── IntentInput.tsx
+│   │   │   ├── IntentGraph.tsx
+│   │   │   └── Loader.tsx
+│   │   ├── services/
+│   │   │   └── api.ts
+│   │   ├── styles/
 │   │   │   └── theme.css
-│   │   └── types/                    # TypeScript type definitions
-│   │       └── intent.types.ts       # Intent and graph data models
-│   ├── package.json                  # Frontend dependencies & scripts
-│   ├── tsconfig.json                 # TypeScript configuration
-│   └── vite.config.ts                # Vite build configuration
+│   │   └── types/
+│   │       └── intent.types.ts
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── vite.config.ts
 │
-├── .gitignore                        # Git ignored files
-├── README.md                         # Project documentation
-├── .env.example                      # Sample environment configuration
-└── LICENSE                           # Project license
-
+├── .gitignore
+├── README.md
+├── .env.example
+└── LICENSE
 ```
+
 ---
 
 ## 👤 Author & 🤝 Collaboration
 
 ### Author
 
-**[Ayush Shrivas](https://github.com/Ayush-Shrivas)**  
-Project Lead & Full-Stack Developer  
+**[Ayush Shrivas](https://github.com/Ayush-Shrivas)**
+Project Lead & Full-Stack Developer
 
 Responsible for overall system design, frontend–backend integration, and AI architecture.
 
 ---
 
-
 ## 🤝 Collaboration
 
 This project was collaboratively developed with contributions across frontend, backend, and AI reasoning.
 
-- **[Laxmi Tiwari](https://github.com/laxmi911)** – Frontend Development & UI Contributions  
-- **[Apurv Singh Rajpoot](https://github.com/Apurv1107)** – Backend Development & API Design  
-- **[Dev Kumar Patel](https://github.com/Dev-Patel0611)** – Research, AI Logic & System Support  
+* **[Laxmi Tiwari](https://github.com/laxmi911)** – Frontend Development & UI Contributions
+* **[Apurv Singh Rajpoot](https://github.com/Apurv1107)** – Backend Development & API Design
+* **[Dev Kumar Patel](https://github.com/Dev-Patel0611)** – Research, AI Logic & System Support
 
 ---
 
 ## 👥 Contributors
 
-Thanks to the following people for contributing to **MindFlow AI**:
+Thanks to the following people for contributing to **MindFlare AI**:
 
 <table>
   <tr>
