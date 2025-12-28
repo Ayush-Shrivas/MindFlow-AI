@@ -12,7 +12,7 @@ export async function extractIntent(userInput) {
     const prompt = `
 You are an intent understanding system.
 
-Analyze the following user input deeply.
+Analyze the following user input deeply..
 
 User input:
 "${userInput}"
