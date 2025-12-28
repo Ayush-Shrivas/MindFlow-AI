@@ -1,11 +1,11 @@
-# 🧠 MindFlow AI
+# 🧠 MindFlare AI
 
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933.svg?logo=node.js)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-18.x-61DAFB.svg?logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6.svg?logo=typescript)](https://www.typescriptlang.org/)
 [![Google Gemini](https://img.shields.io/badge/Google-Gemini_API-4285F4.svg?logo=google)](https://ai.google.dev/)
 
-**MindFlow AI** is an intent-understanding system that transforms unstructured human thoughts into structured intelligence.  
+**MindFlare AI** is an intent-understanding system that transforms unstructured human thoughts into structured intelligence.  
 It analyzes goals, emotions, constraints, and uncertainties from natural language input and converts them into **visual intent graphs**, enabling context-aware reasoning, smarter decisions, and future-ready AI automation.
 
 ---
