@@ -97,9 +97,7 @@ npm run dev
 ```
 
 ### Frontend runs on:
-```arduino
 http://localhost:5173
-```
 
 ---
 
