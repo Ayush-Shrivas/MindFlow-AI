@@ -84,8 +84,6 @@ npm install
 npm start
 ```
 
----
-
 ### Backend runs on:
 http://localhost:5000
 
@@ -99,6 +97,66 @@ npm run dev
 ```
 
 ### Frontend runs on:
-```bash
+```arduino
 http://localhost:5173
+```
+
+---
+
+### 🔑 Environment Variables
+Create a .env file in the backend folder:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+---
+
+### 📂 Project Structure
+
+```
+mindflow-ai/
+├── backend/                          # Node.js + Express backend (AI & APIs)
+│   ├── src/
+│   │   ├── index.js                  # Server entry point
+│   │   ├── routes/                   # API route definitions
+│   │   │   └── intent.routes.js      # Intent extraction endpoint
+│   │   ├── services/                 # External & AI service integrations
+│   │   │   └── gemini.service.js     # Google Gemini API interaction
+│   │   ├── utils/                    # Helper and transformation logic
+│   │   │   └── intentGraphBuilder.js # Converts intent JSON into graph structure
+│   │   ├── config/                   # App configuration
+│   │   │   └── env.js                # Environment variable loader
+│   │   └── middleware/               # Custom Express middleware
+│   │       └── errorHandler.js       # Centralized error handling
+│   ├── package.json                  # Backend dependencies & scripts
+│   ├── package-lock.json
+│   └── .env                          # Environment variables (ignored in Git)
+│
+├── frontend/                         # React + Vite + TypeScript frontend
+│   ├── public/                       # Static assets
+│   │   └── index.html
+│   ├── src/
+│   │   ├── main.tsx                  # Frontend entry point
+│   │   ├── App.tsx                   # Root React component
+│   │   ├── pages/                    # Application pages
+│   │   │   └── Home.tsx              # Main UI page
+│   │   ├── components/               # Reusable UI components
+│   │   │   ├── IntentInput.tsx       # Text input for user thoughts
+│   │   │   ├── IntentGraph.tsx       # Intent graph visualization component
+│   │   │   └── Loader.tsx            # Loading and state feedback
+│   │   ├── services/                 # API communication layer
+│   │   │   └── api.ts                # Backend API calls
+│   │   ├── styles/                   # Global and component styles
+│   │   │   └── theme.css
+│   │   └── types/                    # TypeScript type definitions
+│   │       └── intent.types.ts       # Intent and graph data models
+│   ├── package.json                  # Frontend dependencies & scripts
+│   ├── tsconfig.json                 # TypeScript configuration
+│   └── vite.config.ts                # Vite build configuration
+│
+├── .gitignore                        # Git ignored files
+├── README.md                         # Project documentation
+├── .env.example                      # Sample environment configuration
+└── LICENSE                           # Project license
+
 ```
